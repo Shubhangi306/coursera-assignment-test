@@ -1,0 +1,136 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: lightgrey;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: skyblue;
+  border-radius: 0;
+  border: 0;
+ position: relative;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+ position: absolute;
+  left:25px;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-collapse.collapse.in{
+	background-color: lavender;
+}
+
+
+#nav-list {
+  margin-top: 5px;
+  background-color: lavender;
+}
+#nav-list a {
+  color: #951C49;
+  font-size: 1.2em;
+}
+
+.separator{
+	border: 1px solid violet;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* MENU HEADING */
+
+#text_center{
+font-size: 1.8em;
+color: black;
+font-weight:bold;
+}
+
+/* END MENU HEADING */
+
+/* MENU ITEMS */
+#small-container {
+  height: auto;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  background-color: grey;
+}
+
+.chicken,.beef,.sushi{
+	border: 1.5px solid #3F0C1F;
+	border-top: 0;
+	padding-top: 2px;
+	background-color: lightblue;
+	text-shadow: 1px 1px 1px #222;
+	font-weight: 600;
+}
+
+p {
+    margin: 0 0 25px;
+}
+
+#content-matter{
+	padding: 5px;
+	margin:5px;
+	font-size:0.9em;
+	text-rendering: center;
+	color: black;
+}
+
+h3{
+	height:25px;
+	margin-top: 5px
+}
+
+.navy{
+	color:navy;
+}
+/* END MENU ITEMS */
+
+
+/***********large devices***********/
+
+@media (min-width:  768px)  {
+  /* Header */
+
+  .navbar-brand{
+  	padding-top: 10px;
+  	height:52.5px;
+  	margin-top: 10px;
+  }
+  .navbar-brand h1{
+    padding: -10px;
+  }
+
+
+
+
